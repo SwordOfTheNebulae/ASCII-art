@@ -1,0 +1,39 @@
+* {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.pre {
+	white-space: pre;
+	font-family: "Consolas", Courier, monospace;
+}
+.text-block {
+	display: block;
+	width: fit-content;
+	margin: 0.1em;
+}
+.flex-container {
+	display: flex;
+}
+.flex-item {
+	/* border: 1px solid black; */
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 100%;
+	padding: 1em;
+	margin: 0.5em;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+h3 {
+	margin: 0;
+	border-bottom: 1px solid black;
+}
+#input > * {
+	margin-bottom: 0.75em;
+}
+#imagePreview {
+	box-shadow: 0 0 7.5px rgba(0, 0, 0, 0.25);
+	max-width: 50vh;
+}
+
+h1 {
+	margin-left: 1em;
+}
